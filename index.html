@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+    #layout {
+      position: relative;
+      transform-origin: top left;
+      top: 70px;
+    }
+
+    #backgroundA, #backgroundB, #objA, #objBA, #objBB, #objC {
+      position: absolute;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="layout">
+
+    </div>
+
+    <div id="controls">
+      <p>
+        <label>Distance:</label>
+        <input id="inputA" type="number" />
+
+        <label>Zoom (Mostly for convenience; lower to zoom out):</label>
+        <input id="inputZ" type="number" />
+      </p>
+      <p>
+        <label id="current">Current Code:</label>
+      </p>
+    </div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</html>
