@@ -41,7 +41,7 @@ $(function () {
     $('#objA').css('width', a)
 
 
-    $('#current').text('Current Code: ' + a)
+    $('#current').text('Current Code: ' + $('#inputA').val() + '-v2')
   }
 
   $('#inputA').val(heightA).on('change', adjust)
